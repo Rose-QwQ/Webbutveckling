@@ -1,0 +1,118 @@
+@charset "UTC-8";
+
+body{
+    margin-top: 0;
+    background-color: #222;
+}
+
+header{
+    background-color: #333;
+    color: rgb(1, 173, 1);
+    text-align: center;
+    padding: 3px;
+}
+
+h1{
+    font-weight: normal;
+    margin: 0 0 1px 0;
+}
+
+h3{
+    color: white;
+    margin: 0;
+}
+
+nav{
+    background-color: #555;
+}
+
+nav a{
+    background-color: #444;
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-flex;
+    padding: 5px;
+}
+
+nav a:hover{
+    background: #555;
+}
+
+main{
+    display: flex;
+}
+
+h2{
+    text-decoration: underline;
+    color: rgb(1, 173, 1);
+}
+
+article{
+    flex: 2;
+    background-color: #333;
+    padding: 10px;
+}
+
+.info{
+    font-family: Verdana;
+    font-size: 10px;
+    display: block;
+    color: white;
+}
+
+.info span{
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+aside{
+    padding: 10px;
+    flex: 1;
+}
+
+p{
+    color: lightgrey;
+}
+
+footer{
+    display: flex;
+    padding: 10px;
+    background-color: #222;
+}
+
+footer section{
+    flex: 1;
+    color: white;
+}
+
+footer section p{
+    margin: 4px 15px 0 0;
+}
+
+h5{
+    color: rgb(1, 173, 1);
+    margin: 0 15px 10px 0px;
+}
+
+.bottom{
+    padding: 0 0 0 5px;
+}
+
+table{
+    border: 2px solid rgb(1, 173, 1);
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid rgb(1, 173, 1);
+    padding: 8px;
+    box-shadow: 3px 3px 3px #666;
+}
+
+td:nth-child(odd){
+}
+
+tr:nth-child(even){
+    background-color: darkgrey;
+}

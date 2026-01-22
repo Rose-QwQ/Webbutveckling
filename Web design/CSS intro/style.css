@@ -1,0 +1,46 @@
+/* background ricing */
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
+  /* box ricing */
+  .transparent-box {
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  #typewriter {
+    font-size: 36px;   /* font size */
+    color: #4AF262;    /* font color */
+    font-weight: bold;  /* font bold */
+  }
+  
+  /* make text cursor blink */
+  #typewriter::after {
+    content: '|';
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+  .github-link {
+    position: absolute;
+    top: 200px;
+    left: 880px;
+  }
+  

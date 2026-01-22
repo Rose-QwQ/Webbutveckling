@@ -1,0 +1,30 @@
+body {
+    font-family: monospace;
+    background-color: #000000;
+    padding: 2rem;
+  }
+  
+  #typewriter {
+    font-size: 24px;
+    white-space: pre;
+    border-right: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    animation: blink-caret 0.7s step-end infinite;
+    margin-top: 250px;
+    margin-left: 130px;
+  }
+  
+  #typewriter:hover {
+    color: rgb(4, 114, 4); 
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }

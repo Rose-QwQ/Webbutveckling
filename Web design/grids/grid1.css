@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+section{
+    background: darkred;
+    margin: 8px;
+    color: white;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+}

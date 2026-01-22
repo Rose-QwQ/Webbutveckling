@@ -1,0 +1,54 @@
+body{
+    margin: 0; 
+}
+
+header{
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0;
+}
+
+p{
+    flex: 1;   
+    color: #eee;
+}
+
+#webdev{
+    height: 100vh;
+    background-image: url(pexels-kevin-ku-577585.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textContianer{
+    background: rgba(0,0,0,0.5);
+    width: 50%; 
+    height: 30%;
+    color: #eee;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.B{
+    color: blue;
+}
+
+h1{
+    padding: 20px 10px 0px 10px;
+    margin: 0;
+
+}
+
+.material-symbols-outlined{
+    color: blue;
+}

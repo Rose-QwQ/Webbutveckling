@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(/images/Wynton-Marsalis.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ".      .       b       .       ."
+    ".      t       t       m       ."
+    ".      .       .       m       ."
+    "n      .       .       .       ."
+    ".      s       .       l       ."
+    ".      s       .       l       ."
+    "e      .       o       .       ."
+    "e      .       o       .       ."
+    ;
+}
+
+section{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: #D4759F;
+    
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    grid-area: t;
+}
+
+#beb{
+    grid-area: b;
+}
+
+#mic{
+    grid-area: m;
+}
+
+#new{
+    grid-area: n;
+}
+
+#sin{
+    grid-area: s;
+}
+
+#lat{
+    grid-area: l;
+}
+
+#eve{
+    grid-area: e;
+}
+
+#opera{
+    grid-area: o;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    flex: 3;
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a      b       ."
+    "a      c       ."
+    ".      .       d"
+    ".      .       e"
+    ;
+    
+}
+
+aside{
+    flex: 1;
+    margin: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+h2{
+    color: rgb(156, 5, 5);
+    font-weight: 700;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    text-decoration: dotted;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#a{
+    grid-area: a;
+    background: url(moonlanding.webp) center center;
+    background-size: cover;
+}
+    
+#b{
+    grid-area: b;
+    background: url(vitruvian_man_da_vinci.webp);
+    background-size: cover;
+}
+
+#c{
+    grid-area: c;
+    background: url(napoleon.webp);
+    background-size: cover;
+}
+
+#d{
+    grid-area: d;
+    background: url(pyramids.webp);
+    background-size: cover;
+}
+
+#e{
+    grid-area: e;
+    background: url(ali.webp);
+    background-size: cover;
+}
+
+
+  
+  
